@@ -1,34 +1,37 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;600&family=Ubuntu:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;600&family=Ubuntu:wght@300&display=swap');
 
 
-*{
+
+* {
     padding: 0;
     margin: 0;
     position: relative;
     font-family: 'Ubuntu', sans-serif;
 }
-body{
+
+body {
     background-color: black;
 }
-.main{
+
+.main {
     background-image: url("assets/img/bg.jpg");
     background-position: center center;
-    background-size: max(1200px,100vw);
+    background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     height: 80vh;
-   
+
 }
-.main .box{
+
+.main .box {
     height: 80vh;
     width: 100%;
     opacity: 0.74;
     background-color: black;
-    position:absolute;
+    position: absolute;
     top: 0;
 }
-nav{
+
+nav {
     max-width: 80vh;
     margin: auto;
     display: flex;
@@ -36,7 +39,8 @@ nav{
     justify-content: space-between;
     height: 62px;
 }
-nav img{
+
+nav img {
     color: rgb(229, 9, 20);
     width: 158px;
     position: relative;
@@ -44,14 +48,16 @@ nav img{
     right: 232px;
     top: 15px;
 }
-nav button{
+
+nav button {
     position: relative;
     z-index: 10;
-   
+
 }
-.hero{
+
+.hero {
     font-family: 'Martel Sans', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     height: calc(100% - 62px);
     display: flex;
     align-items: center;
@@ -60,83 +66,95 @@ font-family: 'Ubuntu', sans-serif;
     position: relative;
     color: white;
     gap: 23px;
-    padding:0 30px;
+    padding: 0 30px;
 
 }
-.hero> :first-child{
-    
+
+.hero> :first-child {
+
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 
 }
-.hero> :nth-child(2){
-    font-weight:400;
+
+.hero> :nth-child(2) {
+    font-weight: 400;
     font-size: 28px;
-text-align: center;
+    text-align: center;
 }
-.hero> :nth-child(3){
-    font-weight:400;
+
+.hero> :nth-child(3) {
+    font-weight: 400;
     font-size: 20px;
-text-align: center;
+    text-align: center;
 }
-.separation{
-height: 9px;
-background-color: rgb(35,35,35);
-z-index: 50;
+
+.separation {
+    height: 9px;
+    background-color: rgb(35, 35, 35);
+    z-index: 50;
 }
-.btn{
+
+.btn {
     padding: 3px 8px;
     font-weight: bold;
-   background-color: white;
+    background-color: white;
 
 
 }
-.btn-red{
-   background-color:  rgb(214, 21, 20);
-   color: white;
-   padding: 13px 24px;
-   color: white;
-   font-size: 20px;
-   border-radius: 6.5px;
-   border: none;
+
+.btn-red {
+    background-color: rgb(214, 21, 20);
+    color: white;
+    padding: 13px 24px;
+    color: white;
+    font-size: 20px;
+    border-radius: 6.5px;
+    border: none;
 }
-.btn-red-sm{
-    background-color:  rgb(214, 21, 20); 
+
+.btn-red-sm {
+    background-color: rgb(214, 21, 20);
     color: white;
 }
-.sig{
+
+.sig {
     border-radius: 6.5px;
     border: none;
     padding: 9px 13px;
     font-weight: bold;
     font-size: 15px;
     background-color: white;
-    background-color:  rgb(214, 21, 20);
-    color: white; 
+    background-color: rgb(214, 21, 20);
+    color: white;
 }
- .divs {
+
+.divs {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 
-} 
-.btns{
+}
+
+.btns {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px; 
-   
+    gap: 16px;
+
 }
-.main input{
+
+.main input {
     padding: 13px 24px;
-    color:white;
-    background-color: rgba(23,23,23,0.23);
+    color: white;
+    background-color: rgba(23, 23, 23, 0.23);
     font-size: 20px;
     border-radius: 6.5px;
     border: 1px solid rgba(152, 151, 151, 0.954);
 }
+
 /* .lang{
     color: white;
    
@@ -158,24 +176,26 @@ z-index: 50;
     background-color: rgb(255, 255, 255); 
     font-size: 20px;
 } */
-.lang{
+.lang {
     /* position: relative; */
     width: 100px;
     border: 2px solid white;
     border-radius: 6.5px;
 
-  
+
 }
-.sel{
+
+.sel {
     color: white;
-   width: 100px;
-    background-color:  rgba(23,23,23,0.23);
+    width: 100px;
+    background-color: rgba(23, 23, 23, 0.23);
     font-size: large;
     border: none;
     padding: 6px 23px;
-   
+
 }
-.fist{
+
+.fist {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,67 +204,78 @@ z-index: 50;
     margin: auto;
     color: white;
 }
-.secimg{
+
+.secimg {
     position: relative;
 }
-    .secimg img{
-        width: 30vw;
-        position: relative;
-        z-index: 10;
-    }
-    .secimg video{
-        position: absolute;
-        top: 51px;
-        right: 15px;
-        width: 25vw;
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 15px;
+    width: 25vw;
     /* position: absolute;
     top: 61px;
     right: 19px; */
-    }
-    /* section.fist > div{
+}
+
+/* section.fist > div{
         display: flex;
         flex-direction: column;
     } */
-    .Tv{
-        display: flex;
-        flex-direction: column;
-    }
-    /* .fist > div :first-child{
+.Tv {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .fist > div :first-child{
         font-size: 48px;
         font-weight: bolder;
 
     } */
-    .text1{
-        font-size: 48px;
-        font-weight: bolder;
-    }
-    /* .fist > div :nth-child(2){
+.text1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+/* .fist > div :nth-child(2){
         font-size: 24px;
         
     } */
-    .text2{
-        font-size: 24px;
-    }
-    .sectext1{
-        font-size: 48px;
-        font-weight: bolder; 
-    }
-    .sectext2{
-        font-size: 24px;
-        
-    }
-    .secimg2{
-        position: relative;
-    }
-        .secimg2 img{
-            width: 30vw;
-            position: relative;
-            z-index: 30;
-        }
-        .secimg2 video{
-            position: absolute;
-            top: 25px;
-            right: 75px;
-            width: 19vw;
-            z-index: 0;
-        }
+.text2 {
+    font-size: 24px;
+}
+
+.sectext1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sectext2 {
+    font-size: 24px;
+
+}
+
+.secimg2 {
+    position: relative;
+}
+
+.secimg2 img {
+    width: 30vw;
+    position: relative;
+    z-index: 30;
+}
+
+.secimg2 video {
+    position: absolute;
+    top: 25px;
+    right: 75px;
+    width: 19vw;
+    z-index: 0;
+}
