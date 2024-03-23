@@ -18,11 +18,12 @@ body{
     background-size: max(1200px,100vw);
     background-repeat: no-repeat;
     height: 80vh;
+   
 }
 .main .box{
     height: 80vh;
     width: 100%;
-    opacity: 0.64;
+    opacity: 0.74;
     background-color: black;
     position:absolute;
     top: 0;
@@ -31,19 +32,22 @@ nav{
     max-width: 80vh;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     height: 62px;
 }
 nav img{
-    color: red;
-    width: 114px;
+    color: rgb(229, 9, 20);
+    width: 158px;
     position: relative;
     z-index: 10;
+    right: 232px;
+    top: 15px;
 }
 nav button{
     position: relative;
     z-index: 10;
+   
 }
 .hero{
     font-family: 'Martel Sans', sans-serif;
@@ -60,6 +64,7 @@ font-family: 'Ubuntu', sans-serif;
 
 }
 .hero> :first-child{
+    
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
@@ -77,5 +82,169 @@ text-align: center;
 }
 .separation{
 height: 9px;
-background-color: rgb(35,35,35)
+background-color: rgb(35,35,35);
+z-index: 50;
 }
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+   background-color: white;
+
+
+}
+.btn-red{
+   background-color:  rgb(214, 21, 20);
+   color: white;
+   padding: 13px 24px;
+   color: white;
+   font-size: 20px;
+   border-radius: 6.5px;
+   border: none;
+}
+.btn-red-sm{
+    background-color:  rgb(214, 21, 20); 
+    color: white;
+}
+.sig{
+    border-radius: 6.5px;
+    border: none;
+    padding: 9px 13px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    background-color:  rgb(214, 21, 20);
+    color: white; 
+}
+ .divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+} 
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+   
+}
+.main input{
+    padding: 13px 24px;
+    color:white;
+    background-color: rgba(23,23,23,0.23);
+    font-size: 20px;
+    border-radius: 6.5px;
+    border: 1px solid rgba(152, 151, 151, 0.954);
+}
+/* .lang{
+    color: white;
+   
+    font-size: 18px;
+    font-weight: 900;
+    background-color: rgba(255, 2, 2, 0.23); 
+    font-size: 20px;
+} */
+/* .laqng select{
+    
+    color: rgba(255, 255, 255, 0);
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255); 
+    font-size: 20px;
+} */
+/* option{
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255); 
+    font-size: 20px;
+} */
+.lang{
+    /* position: relative; */
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 6.5px;
+
+  
+}
+.sel{
+    color: white;
+   width: 100px;
+    background-color:  rgba(23,23,23,0.23);
+    font-size: large;
+    border: none;
+    padding: 6px 23px;
+   
+}
+.fist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    height: 60vh;
+    margin: auto;
+    color: white;
+}
+.secimg{
+    position: relative;
+}
+    .secimg img{
+        width: 30vw;
+        position: relative;
+        z-index: 10;
+    }
+    .secimg video{
+        position: absolute;
+        top: 51px;
+        right: 15px;
+        width: 25vw;
+    /* position: absolute;
+    top: 61px;
+    right: 19px; */
+    }
+    /* section.fist > div{
+        display: flex;
+        flex-direction: column;
+    } */
+    .Tv{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .fist > div :first-child{
+        font-size: 48px;
+        font-weight: bolder;
+
+    } */
+    .text1{
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    /* .fist > div :nth-child(2){
+        font-size: 24px;
+        
+    } */
+    .text2{
+        font-size: 24px;
+    }
+    .sectext1{
+        font-size: 48px;
+        font-weight: bolder; 
+    }
+    .sectext2{
+        font-size: 24px;
+        
+    }
+    .secimg2{
+        position: relative;
+    }
+        .secimg2 img{
+            width: 30vw;
+            position: relative;
+            z-index: 30;
+        }
+        .secimg2 video{
+            position: absolute;
+            top: 25px;
+            right: 75px;
+            width: 19vw;
+            z-index: 0;
+        }
