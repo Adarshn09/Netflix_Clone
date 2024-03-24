@@ -38,6 +38,7 @@ nav {
     align-items: flex-end;
     justify-content: space-between;
     height: 62px;
+    margin-left: 35%;
 }
 
 nav img {
@@ -278,4 +279,57 @@ nav button {
     right: 75px;
     width: 19vw;
     z-index: 0;
+}
+.feq{
+    background-color: black;
+    color: white;
+    padding: 24px;
+   
+}
+.feq h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 24px;
+    
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(45,45,45);
+    padding: 24px;
+    max-width: 67vw;
+    margin: 10px auto;
+   cursor: pointer;
+
+
+}
+.box1 svg{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+.box1 span{
+    font-size: larger;
+    font-weight: 700;
+}
+.box1:hover{
+    background-color:rgb(105, 100, 100) ;
+}
+.feq h3{
+   text-align: center;
+   margin-top: 35px;
+   margin-bottom: 34px;
+}
+.inp{
+    padding: 13px 24px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.23);
+    font-size: 20px;
+    border-radius: 6.5px;
+    border: 1px solid rgba(152, 151, 151, 0.954);
+}
+.ssp{
+    margin-top: 55px;
+   
 }
